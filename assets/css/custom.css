@@ -1,0 +1,574 @@
+/* PLACE YOU CUSTOM STYLES IN THIS FILE */
+
+nav.adri {
+	display: none;
+}
+
+h2.edf_title {
+	/*color: #FFF;*/
+	text-shadow: 2px 0px rgba(72, 170, 189, 0.6);
+}
+
+
+h1.nk-title {
+	color: #FFF;
+	text-shadow: 0px 0px rgba(0, 0, 0, 0.2), 0 0 3px rgba(0, 0, 0, 0.2);
+	margin-top: -45px !important;
+}
+
+h1.text-kite {
+	font-weight: 400;
+}
+
+h2.text-kite {
+	color: rgba(255, 255, 255, 1);
+	text-shadow: 5px -3px rgba(35, 168, 159, 0.9);
+	font-weight: 600;
+	line-height: 90px;
+}
+
+h1.text-surf {
+	font-weight: 400;
+}
+
+h2.text-surf {
+	color: rgba(255, 255, 255, 1);
+	text-shadow: 5px 0px rgba(0, 187, 232, 0.5);
+	font-weight: 600;
+	line-height: 90px;
+}
+
+h1.text-sup {
+	font-weight: 400;
+}
+
+h2.text-sup {
+	color: rgba(255, 255, 255, 1);
+	text-shadow: 5px -3px rgba(16, 63, 102, 0.8);
+	font-weight: 600;
+	line-height: 90px;
+}
+
+h1.text-fit {
+	font-weight: 400;
+}
+
+h2.text-fit {
+	color: rgba(255, 255, 255, 1);
+	text-shadow: 5px -3px rgba(210, 218, 68, 0.8);
+	font-weight: 600;
+	line-height: 90px;
+}
+
+
+h2.light-title {
+	font-weight: 400;
+}
+
+/*----------------------------
+    ENDORFINA CUSTOM COLORS
+ ----------------------------*/
+h3.kite-color {
+ 	color:#22a89f;
+ }
+
+ 
+
+ a.kite-color{
+ 	color:#22a89f!important;
+ 	text-decoration: none;
+ }
+
+ 
+
+ a:link .kite-color{
+ 	color:#22a89f;
+ 	text-decoration: none;
+ }
+
+a:hover .kite-color{
+ 	text-decoration: underline;
+ 	color: #22a89f!important;
+ }
+
+
+ h3.surf-color {
+ 	color:#26afcb;
+ }
+
+ 
+
+ a.surf-color{
+ 	color:#26afcb!important;
+ 	text-decoration: none;
+ }
+
+ 
+
+ a:link .surf-color{
+ 	color:#26afcb;
+ 	text-decoration: none;
+ }
+
+a:hover .surf-color{
+ 	text-decoration: underline;
+ 	color: #26afcb!important;
+ }
+
+ h3.sup-color {
+ 	color:#117ad1;
+ }
+
+ 
+
+ a.sup-color{
+ 	color:#117ad1!important;
+ 	text-decoration: none;
+ }
+
+ 
+
+ a:link .sup-color{
+ 	color:#117ad1;
+ 	text-decoration: none;
+ }
+
+a:hover .sup-color{
+ 	text-decoration: underline;
+ 	color: #117ad1!important;
+ }
+
+ h3.fit-color {
+ 	color:#d2da44;
+ }
+
+ 
+
+ a.fit-color{
+ 	color:#d2da44!important;
+ 	text-decoration: none;
+ }
+
+ 
+
+ a:link .fit-color{
+ 	color:#d2da44;
+ 	text-decoration: none;
+ }
+
+a:hover .fit-color{
+ 	text-decoration: underline;
+ 	color: #d2da44!important;
+ }
+
+.tab-nav-btn {
+	float: right;
+}
+
+/*---------------------------
+  Element Tabs Surf
+ ----------------------------*/
+.nk-tabs .nav-tabs {
+    border-bottom: none;
+    float: left;
+}
+
+.nk-tabs .nav-tabs::after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid;
+    opacity: .2;
+}
+
+.nk-tabs .nav-tabs .nav-item, .nk-tabs .nav-tabs .nav-item:focus, .nk-tabs .nav-tabs .nav-item:hover,
+.nk-tabs .nav-tabs .nav-link .nav-surf,
+.nk-tabs .nav-tabs .nav-link .nav-surf:focus,
+.nk-tabs .nav-tabs .nav-link .nav-surf:hover,
+.nk-tabs .nav-tabs .nav-item.open .nav-link .nav-surf,
+.nk-tabs .nav-tabs .nav-item.open .nav-link .nav-surf:focus,
+.nk-tabs .nav-tabs .nav-item.open .nav-link .nav-surf:hover,
+.nk-tabs .nav-tabs .nav-link.nav-surf.active,
+.nk-tabs .nav-tabs .nav-link.nav-surf.active:focus,
+.nk-tabs .nav-tabs .nav-link.nav-surf.active:hover {
+    color: inherit;
+    background-color: transparent;
+}
+
+.nk-tabs .nav-tabs .nav-link .nav-surf {
+    padding: 10px 20px;
+    border: none;
+    border-bottom: 2px solid transparent;
+}
+
+.nk-tabs .nav-tabs .nav-link.nav-surf.active, .nk-tabs .nav-tabs .nav-link.nav-surf.active:focus, .nk-tabs .nav-tabs .nav-link.nav-surf.active:hover {
+    border-bottom: 2px solid #26afcb;
+}
+
+.photo-tab{
+	height: 549px;
+	width: 800px;
+} 
+.tab-description {
+	padding-top: -30px!important;
+}
+
+.price-surf {
+	color: #26afcb;
+}
+
+/*---------------------------
+  End Element Tabs Surf
+ ----------------------------*/
+
+h5.skills {
+	float: left!important;
+	clear: both;
+}
+
+.course_tab{
+	font-size: 0.9em;
+	font-weight: 600;
+}
+
+/*-------------------------
+    Surf Book BTN
+ -------------------------*/
+.nk-btn-color-surf-dark {
+    background-color: none;
+    border-color: #dbdbdb;
+    border-style: solid;
+}
+
+.nk-btn-color-surf-dark:hover, .nk-btn-color-surf-dark.hover {
+    background-color: none;
+    border-color: #26afcb;
+}
+
+.nk-btn-color-surf-dark:active, .nk-btn-color-surf-dark.active {
+    background-color: none;
+    border-color: #26afcb;
+}
+
+.nk-btn-color-surf-dark.nk-btn-outline {
+    color: #dbdbdb;
+}
+
+.nk-btn-color-surf-dark.nk-btn-outline:hover, .nk-btn-color-surf-dark.nk-btn-outline.hover {
+    color: #26afcb;
+}
+
+.nk-btn-color-surf-dark.nk-btn-outline:active, .nk-btn-color-surf-dark.nk-btn-outline.active {
+    color: #26afcb;
+}
+
+.nk-btn-color-surf-light {
+    background-color: none;
+    border-color: #3b3b3b;
+    border-style: solid;
+}
+
+.nk-btn-color-surf-light:hover, .nk-btn-color-surf-light.hover {
+    background-color: none;
+    border-color: #26afcb;
+}
+
+.nk-btn-color-surf-light:active, .nk-btn-color-surf-light.active {
+    background-color: none;
+    border-color: #26afcb;
+}
+
+.nk-btn-color-surf-light.nk-btn-outline {
+    color: #3b3b3b;
+}
+
+.nk-btn-color-surf-light.nk-btn-outline:hover, .nk-btn-color-surf-light.nk-btn-outline.hover {
+    color: #26afcb;
+}
+
+.nk-btn-color-surf-light.nk-btn-outline:active, .nk-btn-color-surf-light.nk-btn-outline.active {
+    color: #26afcb;
+}
+
+/*-------------------------
+    Kite Book BTN
+ -------------------------*/
+.nk-btn-color-kite-dark {
+    background-color: none;
+    border-color: #dbdbdb;
+    border-style: solid;
+}
+
+.nk-btn-color-kite-dark:hover, .nk-btn-color-kite-dark.hover {
+    background-color: none;
+    border-color: #22a89f;
+}
+
+.nk-btn-color-kite-dark:active, .nk-btn-color-kite-dark.active {
+    background-color: none;
+    border-color: #22a89f;
+}
+
+.nk-btn-color-kite-dark.nk-btn-outline {
+    color: #dbdbdb;
+}
+
+.nk-btn-color-kite-dark.nk-btn-outline:hover, .nk-btn-color-kite-dark.nk-btn-outline.hover {
+    color: #22a89f;
+}
+
+.nk-btn-color-kite-dark.nk-btn-outline:active, .nk-btn-color-kite-dark.nk-btn-outline.active {
+    color: #22a89f;
+}
+
+.nk-btn-color-kite-light {
+    background-color: none;
+    border-color: #3b3b3b;
+    border-style: solid;
+}
+
+.nk-btn-color-kite-light:hover, .nk-btn-color-kite-light.hover {
+    background-color: none;
+    border-color: #22a89f;
+}
+
+.nk-btn-color-kite-light:active, .nk-btn-color-kite-light.active {
+    background-color: none;
+    border-color: #22a89f;
+}
+
+.nk-btn-color-kite-light.nk-btn-outline {
+    color: #3b3b3b;
+}
+
+.nk-btn-color-kite-light.nk-btn-outline:hover, .nk-btn-color-kite-light.nk-btn-outline.hover {
+    color: #22a89f;
+}
+
+.nk-btn-color-kite-light.nk-btn-outline:active, .nk-btn-color-kite-light.nk-btn-outline.active {
+    color: #22a89f;
+}
+
+/*-------------------------
+    SUP Book BTN
+ -------------------------*/
+
+.nk-btn-color-sup-dark {
+    background-color: none;
+    border-color: #dbdbdb;
+    border-style: solid;
+}
+
+.nk-btn-color-sup-dark:hover, .nk-btn-color-sup-dark.hover {
+    background-color: none;
+    border-color: #117ad1;
+}
+
+.nk-btn-color-sup-dark:active, .nk-btn-color-sup-dark.active {
+    background-color: none;
+    border-color: #117ad1;
+}
+
+.nk-btn-color-sup-dark.nk-btn-outline {
+    color: #dbdbdb;
+}
+
+.nk-btn-color-sup-dark.nk-btn-outline:hover, .nk-btn-color-sup-dark.nk-btn-outline.hover {
+    color: #117ad1;
+}
+
+.nk-btn-color-sup-dark.nk-btn-outline:active, .nk-btn-color-sup-dark.nk-btn-outline.active {
+    color: #117ad1;
+}
+
+.nk-btn-color-sup-light {
+    background-color: none;
+    border-color: #3b3b3b;
+    border-style: solid;
+}
+
+.nk-btn-color-sup-light:hover, .nk-btn-color-sup-light.hover {
+    background-color: none;
+    border-color: #117ad1;
+}
+
+.nk-btn-color-sup-light:active, .nk-btn-color-sup-light.active {
+    background-color: none;
+    border-color: #117ad1;
+}
+
+.nk-btn-color-sup-light.nk-btn-outline {
+    color: #3b3b3b;
+}
+
+.nk-btn-color-sup-light.nk-btn-outline:hover, .nk-btn-color-sup-light.nk-btn-outline.hover {
+    color: #117ad1;
+}
+
+.nk-btn-color-sup-light.nk-btn-outline:active, .nk-btn-color-sup-light.nk-btn-outline.active {
+    color: #117ad1;
+}
+
+/*-------------------------
+    Fit Book BTN
+ -------------------------*/
+
+.nk-btn-color-fit-dark {
+    background-color: none;
+    border-color: #dbdbdb;
+    border-style: solid;
+}
+
+.nk-btn-color-fit-dark:hover, .nk-btn-color-fit-dark.hover {
+    background-color: none;
+    border-color: #d2da44;
+}
+
+.nk-btn-color-fit-dark:active, .nk-btn-color-fit-dark.active {
+    background-color: none;
+    border-color: #d2da44;
+}
+
+.nk-btn-color-fit-dark.nk-btn-outline {
+    color: #dbdbdb;
+}
+
+.nk-btn-color-fit-dark.nk-btn-outline:hover, .nk-btn-color-fit-dark.nk-btn-outline.hover {
+    color: #d2da44;
+}
+
+.nk-btn-color-fit-dark.nk-btn-outline:active, .nk-btn-color-fit-dark.nk-btn-outline.active {
+    color: #d2da44;
+}
+
+.nk-btn-color-fit-light {
+    background-color: none;
+    border-color: #3b3b3b;
+    border-style: solid;
+}
+
+.nk-btn-color-fit-light:hover, .nk-btn-color-fit-light.hover {
+    background-color: none;
+    border-color: #d2da44;
+}
+
+.nk-btn-color-fit-light:active, .nk-btn-color-fit-light.active {
+    background-color: none;
+    border-color: #d2da44;
+}
+
+.nk-btn-color-fit-light.nk-btn-outline {
+    color: #3b3b3b;
+}
+
+.nk-btn-color-fit-light.nk-btn-outline:hover, .nk-btn-color-fit-light.nk-btn-outline.hover {
+    color: #d2da44;
+}
+
+.nk-btn-color-fit-light.nk-btn-outline:active, .nk-btn-color-fit-light.nk-btn-outline.active {
+    color: #d2da44;
+}
+
+
+/*-----Outline Surf Btn--------*/
+
+.nk-btn-color-hover-main-surf:hover, .nk-btn-color-hover-main-surf.hover {
+    background-color: none;
+    border-color: #26afcb;
+    border-style: solid;
+}
+
+.nk-btn-color-hover-main-surf:active, .nk-btn-color-hover-main-surf.active {
+    background-color: none;
+    border-color: #47a9bd;
+}
+
+.nk-btn-color-hover-main-surf.nk-btn-outline:hover, .nk-btn-color-hover-main-surf.nk-btn-outline.hover {
+    color: #47a9bd;
+}
+
+.nk-btn-color-hover-main-surf.nk-btn-outline:active, .nk-btn-color-hover-main-surf.nk-btn-outline.active {
+    color: #47a9bd;
+}
+
+/*---------------------------
+  Element Accordion
+ ----------------------------*/
+.nk-accordion .panel-heading .none::after {
+    content: "";
+    display: block;
+    border-bottom: solid 1px;
+    opacity: .2;
+}
+
+.nk-accordion .panel-heading a {
+    display: block;
+    padding: 10px 0px;
+    color: inherit;
+    text-decoration: none;
+}
+
+.top-line {
+	border-top: solid 1px;
+}
+
+.top-color-dark {
+	/*border-top-color: #2a2a2a;
+	box-shadow: 0px -1px #000000;*/
+	border-top-color: #4b4b4b;
+}
+
+.nk-gap-0 {
+    display: block;
+    height: 4px;
+}
+
+h3.acc-title {
+	font-weight: 400!important;
+}
+
+.close-tab{
+	font-weight: 400;
+	color: #fff;
+}
+
+.icon-toggle {
+	font-size: 0.9em;
+}
+
+
+/*-------------Icons----------------*/
+/*----------------------------------*/
+
+.rg-icon {
+	float: right;
+}
+
+.lf-icon {
+	float: left;
+}
+
+.nk-ibox-4 .nk-ibox-icon  {
+	font-size: 3.5rem;
+}
+
+/*-------Mini Nav Mobile -------*/
+/*------------------------------*/
+
+@media only screen and (max-width: 420px) {
+    .nk-navbar.nk-navbar-top .nk-nav-logo{
+        display: inline;
+    } 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
